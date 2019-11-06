@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>float布局案例应用</title>
+</head>
+<style type="text/css">
+*{ margin:0; padding:0; font-family:"微软雅黑"}
+ul{ list-style:none;}
+a{ text-decoration:none; color:#000}
+.contenter{ width:1300px; margin:0 auto;}
+.header{ width:1300px; background-color:#CCC; overflow:hidden}
+.header .logo{ float:left}
+.header .nav{ float:right}
+.header .nav li{ padding:30px 30px; margin-right:2px ;float:left;}
+.header .nav li a:hover{ color:#FFF }
+.main{ width: 1300px; }
+.con{ width: 1000px; height: 800px; background-color: red; float: left;}
+.side{ width: 300px; height: 800px; background-color: blue; float: left; }
+.footer{ width: 1300px; height: 100px; background-color: orange; float: left; }
+</style>
+
+<body>
+<div class="contenter">
+<div class="header">
+<div class="logo"><a href="#"><img src="logo.png" /></a></div>
+<ul class="nav">
+<li><a href="#">免费课程</a></li>
+<li><a href="#">进阶课程</a></li>
+<li><a href="#">袁问</a></li>
+<li><a href="#">手记</a></li>
+</ul>
+</div>
+<div class="main">
+	<div class="con">contenter</div>
+	<div class="side">side</div>
+</div>
+<div class="footer">footer</div>
+</div>
+</body>
+</html>
