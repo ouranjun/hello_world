@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>傻瓜故事生成器</title>
+</head>
+<style>
+*{ font-size: 20px;font-family: '微软雅黑'; font-weight: bold;}
+div span,input,button{margin: 20px 0;}
+body{width: 500px;}
+p{
+    background: #ffc125;
+    color: #5e2612;
+    padding: 10px;
+    visibility: hidden;
+}
+</style>
+<body>
+    <div>
+    <label for="customname">Enter custom name:</label><input type="text" name="text" id="customName" placeholder=""><br>
+    <label for="us">US</label><input type="radio" name="usuk" id="us" value="us" checked>
+    <label for="uk">Uk</label><input type="radio" name="usk" id="uk" value="uk"><br>
+    <button class="randomize">Gennrate random story</button>
+    </div>
+    <p class="story"></p>
+    <script src="main.js"></script>
+</body>
+</html>
