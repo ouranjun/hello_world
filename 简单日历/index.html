@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简单日历</title>
+</head>
+<style>
+*{font-family: "微软雅黑";}
+body{padding: 20px;}
+.monthBox{width: 600px; border: 1px solid black;padding: 10px; overflow: hidden; padding-bottom: 5%;}
+.monthShow li{list-style: none; display:block; width: 20%; height: 30px; background: #4A2DB6; color: #fff; margin: 4px; line-height: 30px;float: left;text-align: center;}
+
+</style>
+<body>
+    <div class="monthBox">
+    <label for="month">Select month:</label>
+    <select class="month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+    </select>
+
+    <h1 class="monthName"></h1>
+    <ul class="monthShow"></ul>
+</div>
+    
+<script src="main.js"></script>
+</body>
+</html>
