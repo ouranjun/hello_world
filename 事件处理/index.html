@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>事件处理</title>
+    <style>
+    /*div样式*/
+    div{width:25%;height: 100px;background-color: red;float: left;}
+
+    </style>
+</head>
+<body>
+    <script>
+    //创建16个div
+    for(let i = 1 ; i<=16;i++){
+        let myDiv = document.createElement('div')
+        document.body.appendChild(myDiv);
+    }    
+    //创建random函数 实现随机数
+    function random(number){
+        return Math.floor(Math.random()*number);
+    }
+    //创建bgChange()函数
+    function bgChange(){
+        const rndCol ='rgb('+random(255)+','+random(255)+','+random(255)+')' ; 
+        return rndCol;
+
+    }
+
+
+
+    //获取所有div
+    let divs = document.querySelectorAll('div');
+    //遍历所有div 每个div被单击时执行bgChange函数
+    for(let i = 0;i<divs.length;i++){
+
+        divs[i].onclick=function(e){
+            e.target.style.backgroundColor = bgChange();
+
+        }
+    }
+        
+        
+        
+    </script>
+</body>
+</html>
