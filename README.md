@@ -7,4 +7,9 @@
 
 *2019-12-2
 javascript对象和面向对象的理解.
+
+*2019-12-5
+原生JS实现图片轮播，用setInterval定时器 clearInterval清除定时器 封装函数实现
+
+
 # 作者 偶然
