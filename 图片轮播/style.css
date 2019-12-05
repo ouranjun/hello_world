@@ -1,0 +1,41 @@
+/*网页颜色：#ffcc00*/
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+body{font-family: '微软雅黑'; font-size: 22px;}
+.outBox span{
+    display: inline-block;
+    width: 293px;
+    height: 30px;
+    border:1px solid rgba(0,0,0,0.2);
+    text-align: center;
+    cursor: pointer;
+}
+.active{
+    background-color: #ffcc00;
+}
+.outBox{
+    width: 1200px;
+    height: 480px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.bgImg{
+    float: left;
+    width: 1200px;
+    height: 460px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.img1{
+    background: url(img/1.jpg);
+}
+.img2{
+    background: url(img/2.jpg);
+}
+.img3{
+    background: url(img/3.jpg);
+}
+.img4{
+    background: url(img/4.jpg);
+}
