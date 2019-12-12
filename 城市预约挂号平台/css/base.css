@@ -1,0 +1,407 @@
+p{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+select,input{
+    border: none;
+    outline: none;
+}
+
+.top{
+    line-height: 30px;
+    font-size: 13px;
+    color:#868686;
+}
+
+.top .call{
+    float: left;
+    padding-left: 20px;
+    background: url(../img/icon-call.png) no-repeat center left;
+}
+.top .welcome{
+    float: right;
+    word-spacing: 20px;
+}
+.top a{
+    text-decoration: none;
+    color: #5bb8e8;
+}
+
+.header_logo a img{
+    width: 402px;
+    height: 74px;
+    padding: 9px 0;
+    display: inline-block;
+}
+
+.header_select{
+    width: 326px;
+    height: 38px;
+    position: absolute;
+   /* background: orange;*/
+    top: 29px;
+    right: 0;
+}
+nav .link{
+    display: block;
+    float: left;
+    padding-left: 30px;
+    line-height: 36px;
+    min-width: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: #d7f3ff;
+}
+nav .menu{
+    width: 130px;
+    padding-right: 30px;
+    background: #1fa4f0;
+    position: relative;
+}
+nav .menu .menu_list{
+    position: absolute;
+    background: #1fa4f0;
+    width: 100%;
+    height: 423px;
+    left: 0;
+    top: 36px;
+    right:0;
+    z-index: 9
+    
+}
+.banner_search{
+    background: #fafafa;
+}
+.banner_search .caption{
+    height: 22px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+.banner_search .caption .text{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    color: #fec009;
+    font-size: 16px;
+    padding-left: 30px;
+    background: url('../img/icon-help.png') no-repeat 0px 0px ;
+}
+.banner_search .form{
+    height: 150px;
+}
+.banner_search .form .line{
+    padding-bottom: 9px;
+    text-align: center;
+}
+.banner_search .form .line select{
+    width: 170px;
+    font-size: 12px;
+    z-index: 0;
+    border: 1px solid #dcdddd;
+    height: 26px;
+    line-height: 26px;
+    padding: 2px 0;
+    color: #666;
+}
+
+.banner_search .submit{
+    height: 32px;
+    text-align: center;
+    
+    
+}
+
+.banner_search .submit input{
+    height: 33px;
+    width: 108px;
+    background: #fecd09;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner_help .caption{
+    color: #1fa4f0;
+    font-size: 17px;
+    height: 22px;
+    padding: 15px 0 0px 0;
+    text-align: center;
+    
+  
+}
+.banner_help .caption .help{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    color: #1fa4f0;
+    font-size: 18px;
+    padding-left: 30px;
+    background: url('../img/icon-help.png') no-repeat 0px -22px ;
+    cursor: pointer;
+}
+.banner_help .caption .text{
+    margin:0px 26px 0 26px;
+    cursor: pointer;
+}
+
+.banner_help .caption .text:hover{
+    color: blue;
+}
+.content .content_nav{
+    width: 100%;
+    height: 34px;
+    background: #f4f6fa;
+    font-size: 14px;
+}
+.content .content_nav span{
+    display: inline-block;
+    width: 112px;
+    text-align: center;
+    line-height: 34px;
+    color: #00b3ea;
+    font-weight: 800;
+    cursor: pointer;
+}
+.content .content_nav .active{
+    color: #fff;
+    background: #00b3ea;
+    
+}
+.content .hospital{
+    width: 740px;
+    
+}
+.content .hospital .hospital_li{
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 43px;
+    background: #fff;
+    position: relative;
+    border-top: none;
+    
+}
+.content .hospital .hospital_li ul{
+    position: absolute;
+    margin: 10px 0px 10px 14px;
+    padding:0px;
+    
+    
+}
+.content .hospital .hospital_li li{
+    list-style: none;
+    display: inline;
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+}
+.content .hospital .hospital_li ul .active{
+    color: #fff;
+    background: #00b3ea;
+    border-radius: 3px;
+    
+}
+.content .hospital .hospitals{
+    width: 739px;
+    background: #fff;
+    border-top: none;
+    height: 408px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.content_news{
+    background: #fff;
+    border: 1px solid #f4f6fa;
+}
+.content_close .caption,
+.content_news .caption{
+    height: 38px;
+    line-height: 38px;
+    background: #f4f6fa;
+    text-align: center;
+    color: #fec009;
+    font-size: 15px;
+}
+.content_close .caption{
+    color:#1fa4f0 ;
+}
+.content_close .more,
+.content_news .more{
+    float: right;
+    padding-right: 22px;
+    font-size: 12px;
+    color: #868686;
+    text-decoration: none;
+}
+.content_close .list,
+.content_news .list{
+    
+    padding: 11px 20px 13px 35px;
+    line-height: 30px;
+    font-size: 12px;
+    background: url('../img/list-yellow.jpg') 17px 20px no-repeat;
+}
+.content_close .list{
+    background: url('../img/list-blue.jpg') 17px 20px no-repeat;
+}
+.content .list a{
+    display: block;
+    color: #969696;
+}
+
+/*医院内容*/
+
+.content_tab .caption{
+    height: 34px;
+    line-height: 34px;
+    background: #f5f6fa;
+}
+.content_tab .caption .item{
+    display: block;
+    width: 112px;
+    height: 34px;
+    text-align: center;
+    float: left;
+    color: #00b3ea;
+}
+.content_tab .caption .item_focus{
+    background: #60bff2;
+    color: #fff;
+}
+.content_tab .block{
+    border: 1px solid #f4f6fa;
+    height: 452px;
+     
+}
+.content_tab .block_caption{
+    height: 26px;
+    line-height: 26px;
+    padding: 8px;
+    border-bottom: 1px solid #f4f6fa;
+}
+
+.content_tab .block_caption_item{
+    display: block;
+    float: left;
+    padding: 0 10px 0 10px;
+    font-size: 12px;
+    color: #4c4948;
+}
+
+.content_tab .block_caption_item_focus{
+    background: #60bff2;
+    color: #fff;
+}
+
+.content_tab .block_content{
+    padding: 16px 12px;
+    position: relative;
+    
+}
+
+.content_tab .block_content .block_more{
+    line-height: 55px;
+    text-align: center;
+    color: #5084c4;
+    font-size: 14px;
+    cursor: pointer;
+ 
+}
+
+/*医院的列表容器*/
+
+.content_tab .block_content .item{
+    float: left;
+    width: 216px;
+    height: 102px;
+    padding: 0 20px 10px 120px;
+    position: relative;
+    font-size: 12px;
+}
+
+.content_tab .block_content .item img{
+    width: 110px;
+    height: 98px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+.content_tab .block_content .item .item_name{
+    color: #036eb7;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 13px;
+}
+.content_tab .block_content .item .item_phone,
+.content_tab .block_content .item .item_address{
+    line-height: 18px;
+    padding-bottom: 4px;
+    color: #666;
+}
+.content_tab .block_content .item .item_level{
+    float: right;
+    font-size: 12px;
+    color: #979797;
+}
+
+/*医院文案-容器*/
+
+
+.content_tab .block_content .block_text_list .item_text{
+    display: block;
+    width: 351px;
+    height: 27px;
+    font-size: 14px;
+    color: #666;
+    padding-top: 8px;
+    float: left;
+    border-bottom:  1px dashed #dcdddd ;
+}
+
+.content_tab .block_content .block_text_list .item_text:nth-child(2n){
+    margin-left: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
